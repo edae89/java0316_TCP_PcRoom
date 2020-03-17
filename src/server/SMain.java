@@ -19,6 +19,7 @@ public class SMain {
 			ServerChat s = new ServerChat(withClient, sc);
 			sc.addServerChat(s);
 			s.start();
+			System.out.println("");
 		}
 	}
 
